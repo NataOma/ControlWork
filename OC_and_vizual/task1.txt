@@ -1,0 +1,32 @@
+maksim@maksim-Virtual-Machine:~$ mkdir WH
+maksim@maksim-Virtual-Machine:~$ cd WH
+maksim@maksim-Virtual-Machine:~/WH$ ls
+maksim@maksim-Virtual-Machine:~/WH$ cat <<EOT >> pets.txt
+> cat
+> dog
+> hamster
+> EOT
+maksim@maksim-Virtual-Machine:~/WH$ cat pets.txt
+cat
+dog
+hamster
+maksim@maksim-Virtual-Machine:~/WH$ cat <<EOT >> pack_animals.txt
+> harse
+> camel
+> donkey
+> EOT
+maksim@maksim-Virtual-Machine:~/WH$ cat pack_animals.txt
+harse
+camel
+donkey
+maksim@maksim-Virtual-Machine:~/WH$ cat pets.txt pack_animals.txt > animals.txt
+maksim@maksim-Virtual-Machine:~/WH$ cat animals.txt
+cat
+dog
+hamster
+harse
+camel
+donkey
+maksim@maksim-Virtual-Machine:~/WH$ mv animals.txt humans_friend.txt
+maksim@maksim-Virtual-Machine:~/WH$ ls
+humans_friend.txt  pack_animals.txt  pets.txt

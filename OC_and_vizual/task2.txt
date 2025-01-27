@@ -1,0 +1,10 @@
+maksim@maksim-Virtual-Machine:~/WH$ ls
+humans_friend.txt  pack_animals.txt  pets.txt
+maksim@maksim-Virtual-Machine:~/WH$ mkdir new
+maksim@maksim-Virtual-Machine:~/WH$ ls
+humans_friend.txt  new  pack_animals.txt  pets.txt
+maksim@maksim-Virtual-Machine:~/WH$ mv humans_friend.txt new
+maksim@maksim-Virtual-Machine:~/WH$ ls
+new  pack_animals.txt  pets.txt
+maksim@maksim-Virtual-Machine:~/WH$ ls new
+humans_friend.txt
