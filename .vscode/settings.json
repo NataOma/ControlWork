@@ -1,0 +1,8 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "OOP/Task_8_and_9/model/impl",
+        "OOP/Task_8_and_9/model",
+        "OOP"
+    ]
+}
